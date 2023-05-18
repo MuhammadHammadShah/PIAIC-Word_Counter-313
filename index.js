@@ -25,4 +25,6 @@ async function countWords() {
     const wordCount = arrayOfWords.length;
     console.log(`Word Count: ${wordCount}`);
 }
-countWords();
+setTimeout(() => {
+    countWords();
+}, 1000);

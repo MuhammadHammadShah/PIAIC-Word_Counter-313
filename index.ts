@@ -29,5 +29,9 @@ async function countWords() {
 
   console.log(`Word Count: ${wordCount}`);
 }
+setTimeout(() => {
+  countWords();
+}, 1000);
 
-countWords();
+
+
